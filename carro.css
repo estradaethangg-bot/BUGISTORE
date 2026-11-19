@@ -1,0 +1,112 @@
+
+
+#conte{
+    background-image: url(Recursos/fondo4.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 55%;
+    height: 80%;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    text-align: center;
+}
+u{
+    text-decoration: none;
+    font-family: tahoma;
+    color: white;
+    font-size: 20px;
+}
+.titul{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+}
+table{
+    border-radius: 10px;
+    background-color: white;
+    font-family: tahoma;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top:20px;
+    margin: auto;
+    width: 90%;
+}
+.t2{
+    position: relative;
+    top:40px;
+}
+.t2 td{
+    border-left: 3px solid beige;
+    border-bottom: 3px solid beige;
+}
+th{
+    border-bottom: 3px solid beige;
+    height: 40px;
+}
+td{
+    padding: 10px;
+}
+input{
+    font-family: tahoma;
+    font-size: 20px;
+    background-color: transparent;
+    color: green;
+    width: 120px;
+    border: none;
+}
+.enviar{
+    background-color: beige;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+    height: 80px;
+    position: relative;
+    left: 10%;
+    top: 60px;
+}
+select {
+    appearance: none; /* Quita los estilos predeterminados */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f9fa;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    position: center;
+  }
+
+  .caja{
+ appearance: none; /* Quita los estilos predeterminados */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #f8f9fa;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    position: center;
+}
+.tx{
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+.boton {
+    height: 30px;
+    background-color: rgb(36, 182, 55);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+   
+    border-radius: 10px;
+}

@@ -1,0 +1,73 @@
+body {
+    background: url('fondoj1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;/* se usa una imagend de fondo */
+    font-family: 'Press Start 2P', cursive; /* la fuente estilo pixelado */
+    color: #ffffff; /* Texto blanco */
+}
+
+.card {
+    border-radius: 20px; /* Bordes redondeados */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro translucido */
+    padding: 20px; /* Espacio interno */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+.texto {
+    color: #00ff00; /* Color verde neón */
+    font-size: 2.5rem; /* Tamaño de texto grande */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-shadow: 2px 2px 5px rgba(0, 255, 0, 0.5); /* Efecto neón */
+}
+
+.form-label {
+    font-weight: bold; /* Texto en negrita */
+    font-size: 1.2rem; /* Tamaño de fuente moderado */
+    color: #ffcc00; /* Color amarillo futurista */
+}
+
+input[type="text"], select {
+    border-radius: 15px; /* Bordes redondeados */
+    border: 2px solid #ffcc00; /* Borde amarillo */
+    padding: 12px; /* Espaciado interno */
+    font-size: 1.1rem; /* Tamaño de fuente */
+    background-color: #333; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    width: 100%; /* Ancho completo */
+    box-sizing: border-box; /* Incluye el padding y borde en el tamaño total */
+}
+
+.d-grid gap-2 input[type="button"] {
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    font-size: 1.2rem; /* Tamaño de fuente */
+    border: none; /* Sin borde */
+    color: #ffffff; /* Texto blanco */
+    cursor: pointer; /* Cursor de mano */
+    transition: 0.3s; /* Efecto de transición */
+    text-transform: uppercase; /* Texto en mayúsculas */
+}
+
+#bt_buscar {
+    background-color: #28a745; /* Fondo verde */
+    box-shadow: 0 4px 10px rgba(0, 255, 0, 0.3); /* Sombra verde */
+}
+
+#bt_borrar {
+    background-color: #dc3545; /* Fondo rojo */
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.3); /* Sombra roja */
+}
+
+#bt_modificar {
+    background-color: #ffc107; /* Fondo amarillo */
+    box-shadow: 0 4px 10px rgba(255, 255, 0, 0.3); /* Sombra amarilla */
+}
+
+
+.container-fluid {
+    background: url('fondoj1.jpg'); /* Fondo con imagen */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repite la imagen */
+}

@@ -1,0 +1,128 @@
+body {
+background-image: url("Recursos/F_sesion.jpg");
+
+    background-size: cover;
+ 
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    animation: desplazamiento 1s ease-out;
+    border-radius: 15px;
+    padding: 20px;
+ 
+}
+.neon{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 1px;
+    box-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe,
+    0 0 102px #bc13fe,
+    0 0 151px #bc13fe;
+}
+.boton {
+    height: 60px;
+    background-color: rgb(15, 163, 143);
+    color: white;
+    border: 3px solid rgb(0, 255, 136);
+    font-size:25px;
+    border-radius: 20px;
+}
+.boton2:hover{
+    background-color: rgb(255, 0, 0);
+}
+.boton:hover{
+    background-color: rgb(3, 179, 106);
+}
+.boton2 {
+    height: 60px;
+    background-color: rgb(170, 32, 32);
+    border: 3px solid rgb(255, 0, 0);
+    color: white;
+    font-size: 25px;
+    border-radius: 20px;
+}
+.cajasTXT {
+    border: 5px solid rgb(82, 1, 85);
+    color: black;
+    background-color: rgb(254, 237, 255);
+    font-size: 15px;
+}
+.camposTXT {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulo {
+  font-size: 50px;
+  font-style: normal;
+  color: rgb(85, 0, 89);
+  font-family: 'Arial', sans-serif;
+}
+
+@keyframes desplazamiento {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Enlace de registro */
+.registro-cta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 22px;
+    padding-top: 17px;
+    border-top: 1px solid rgba(85, 0, 89, 0.16);
+    color: #4b5563;
+    font-size: 15px;
+    text-align: center;
+}
+
+.registro-link {
+    color: #7900a8;
+    font-weight: 800;
+    text-decoration: none;
+    transition: color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.registro-link:hover,
+.registro-link:focus-visible {
+    color: #0fa38f;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+@media (max-width: 480px) {
+    .titulo {
+        font-size: 38px;
+    }
+
+    .boton,
+    .boton2 {
+        height: 54px;
+        font-size: 20px;
+    }
+
+    .registro-cta {
+        font-size: 14px;
+    }
+}

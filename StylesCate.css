@@ -1,0 +1,98 @@
+
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+a:hover{
+    color: #338aff;
+    transition: .90s;
+}
+u{
+    color: white;
+    font-family: tahoma;
+    font-size: 16px;
+}
+.tu{
+    text-decoration: none;
+}
+#conte{
+    width: 95%;
+    height: 98%;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    display: grid;
+    gap: 2rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-template-rows: repeat(200, 25rem);
+}
+/*-Carta de precentacion-*/
+.cartas{
+
+    padding: 10px;
+    width: 85%;
+    height: 370px;
+    background-image: url(Recursos/fondo51.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    position: relative;
+    background-attachment:inherit;
+
+}
+.boto{
+    font-size: 14px;
+}
+.dis{
+    color: #00FF66;
+}
+.titul{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.port{
+    width: 140px;
+    height: 180px;
+    display: block;
+    margin: auto;
+}
+.carg{
+    width: 170px;
+    height: 180px;
+}
+.gran{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.port, .titul, .ps4{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.edit{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.edit:hover{
+    box-shadow: 6px 4px 8px white;
+    transition: .40s;
+}
+.boto{
+    grid-column-start: 1;
+}
+.nuev{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    left: 100px;
+    top: 30%;
+}
+.nuev:hover{
+    width: 145px;
+    height: 145px;
+}

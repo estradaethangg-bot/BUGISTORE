@@ -1,0 +1,80 @@
+
+body {
+    background-color: rgb(0, 26, 49);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-fluid{
+    background: url('fondo2.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.card {
+    animation: desplazamiento 1s ease-out;
+    background: rgb(255, 255, 255);
+    border: 5px solid rgb(124, 141, 251);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.469);
+}
+.boton {
+    height: 60px;
+    background-color: rgb(0, 31, 58);
+    color: white;
+    border: 3px solid rgb(255, 255, 255);
+    font-size: 30px;
+    border-radius: 20px;
+}
+.boton2 {
+    height: 60px;
+    background-color: rgb(126, 0, 0);
+    color: white;
+    border: 3px solid rgb(255, 0, 0);
+    font-size: 30px;
+    border-radius: 20px;
+}
+.cajasTXT {
+    border: 5px solid rgb(1, 11, 85);
+    color: black;
+    background-color: rgb(237, 244, 255);
+    font-size: 15px;
+}
+.camposTXT {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulo {
+  font-size: 50px;
+  font-style: normal;
+  color: rgb(13, 0, 89);
+  font-family: 'Arial', sans-serif;
+}
+
+@keyframes desplazamiento {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    accent-color: #4A90E2;
+    border: 2px solid #4A90E2;
+    cursor: pointer;
+}
+input[type="radio"]:checked {
+    border: 2px solid #2C6BBA;
+}

@@ -1,0 +1,292 @@
+[
+    {
+        "id": "carreras-gran7",
+        "name": "Gran Turismo 7",
+        "category": "carreras",
+        "platform": "PlayStation 4 / PlayStation 5",
+        "price": 1099,
+        "stock": 8,
+        "image": "Styles/Recursos/carreras/gran7.jpg",
+        "description": "Simulador de conducción y carreras."
+    },
+    {
+        "id": "carreras-crash-team-racing",
+        "name": "Crash Team Racing Nitro-Fueled",
+        "category": "carreras",
+        "platform": "PlayStation 4",
+        "price": 699,
+        "stock": 8,
+        "image": "Styles/Recursos/carreras/crash_1.jpg",
+        "description": "Carreras arcade con Crash y sus amigos."
+    },
+    {
+        "id": "carreras-nfs-heat",
+        "name": "Need for Speed Heat",
+        "category": "carreras",
+        "platform": "PlayStation 4 / Xbox One",
+        "price": 599,
+        "stock": 15,
+        "image": "Styles/Recursos/carreras/Need.jpg",
+        "description": "Carreras callejeras y personalización de autos."
+    },
+    {
+        "id": "carreras-grid-legends",
+        "name": "GRID Legends",
+        "category": "carreras",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 499,
+        "stock": 9,
+        "image": "Styles/Recursos/carreras/Grid.jpg",
+        "description": "Competición automovilística."
+    },
+    {
+        "id": "carreras-f1",
+        "name": "F1: The Official Game",
+        "category": "carreras",
+        "platform": "PlayStation / Xbox",
+        "price": 799,
+        "stock": 10,
+        "image": "Styles/Recursos/carreras/F1.jpg",
+        "description": "Videojuego oficial de carreras de Fórmula 1."
+    },
+    {
+        "id": "carreras-the-crew",
+        "name": "The Crew",
+        "category": "carreras",
+        "platform": "PlayStation / Xbox",
+        "price": 649,
+        "stock": 8,
+        "image": "Styles/Recursos/carreras/Crew.jpg",
+        "description": "Mundo abierto de conducción."
+    },
+    {
+        "id": "historia-assassins-creed",
+        "name": "Assassin’s Creed",
+        "category": "historia",
+        "platform": "PlayStation / Xbox",
+        "price": 699,
+        "stock": 10,
+        "image": "Styles/Recursos/historia/assas.jpg",
+        "description": "Aventura de acción histórica."
+    },
+    {
+        "id": "historia-god-of-war",
+        "name": "God of War",
+        "category": "historia",
+        "platform": "PlayStation",
+        "price": 899,
+        "stock": 9,
+        "image": "Styles/Recursos/historia/god.jpg",
+        "description": "Aventura de acción y mitología."
+    },
+    {
+        "id": "historia-assassins-creed-2",
+        "name": "Assassin’s Creed: Saga",
+        "category": "historia",
+        "platform": "PlayStation / Xbox",
+        "price": 599,
+        "stock": 10,
+        "image": "Styles/Recursos/historia/assascre.jpg",
+        "description": "Otra entrega de la saga Assassin’s Creed."
+    },
+    {
+        "id": "historia-uncharted-4",
+        "name": "Uncharted 4: A Thief’s End",
+        "category": "historia",
+        "platform": "PlayStation 4",
+        "price": 499,
+        "stock": 7,
+        "image": "Styles/Recursos/historia/unch4.jpg",
+        "description": "Aventura narrativa de exploración."
+    },
+    {
+        "id": "historia-uncharted-lost-legacy",
+        "name": "Uncharted: The Lost Legacy",
+        "category": "historia",
+        "platform": "PlayStation 4",
+        "price": 399,
+        "stock": 8,
+        "image": "Styles/Recursos/historia/unchtll.jpg",
+        "description": "Aventura de acción de Uncharted."
+    },
+    {
+        "id": "battle-call-of-duty-vanguard",
+        "name": "Call of Duty: Vanguard",
+        "category": "battle",
+        "platform": "PlayStation / Xbox",
+        "price": 999,
+        "stock": 10,
+        "image": "Styles/Recursos/battle/codv.jpg",
+        "description": "Shooter de acción en primera persona."
+    },
+    {
+        "id": "battle-call-of-duty-warzone",
+        "name": "Call of Duty: Warzone",
+        "category": "battle",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 0,
+        "stock": 100,
+        "image": "Styles/Recursos/battle/codwar.jpg",
+        "description": "Battle royale gratuito. No se simulan compras dentro del juego."
+    },
+    {
+        "id": "battle-fortnite",
+        "name": "Fortnite",
+        "category": "battle",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 0,
+        "stock": 100,
+        "image": "Styles/Recursos/battle/fotnit.jpg",
+        "description": "Battle royale gratuito. No se simulan compras dentro del juego."
+    },
+    {
+        "id": "battle-pubg",
+        "name": "PUBG: Battlegrounds",
+        "category": "battle",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 399,
+        "stock": 10,
+        "image": "Styles/Recursos/battle/pubg.jpg",
+        "description": "Supervivencia y combate battle royale."
+    },
+    {
+        "id": "battle-rogue-company",
+        "name": "Rogue Company",
+        "category": "battle",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 299,
+        "stock": 12,
+        "image": "Styles/Recursos/battle/rogue.jpg",
+        "description": "Shooter táctico multijugador."
+    },
+    {
+        "id": "estrategia-god-of-war-ragnarok",
+        "name": "God of War Ragnarök",
+        "category": "estrategia",
+        "platform": "PlayStation",
+        "price": 1299,
+        "stock": 8,
+        "image": "Styles/Recursos/estrategia/godr.jpg",
+        "description": "Aventura de acción en un mundo mitológico."
+    },
+    {
+        "id": "estrategia-tom-clancy",
+        "name": "Tom Clancy’s Collection",
+        "category": "estrategia",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 499,
+        "stock": 10,
+        "image": "Styles/Recursos/estrategia/tom.jpg",
+        "description": "Acción táctica y estrategia."
+    },
+    {
+        "id": "estrategia-superhot",
+        "name": "SUPERHOT",
+        "category": "estrategia",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 399,
+        "stock": 15,
+        "image": "Styles/Recursos/estrategia/superhot.jpg",
+        "description": "Juego de acción con mecánicas de tiempo."
+    },
+    {
+        "id": "estrategia-humankind",
+        "name": "Humankind",
+        "category": "estrategia",
+        "platform": "PC",
+        "price": 699,
+        "stock": 8,
+        "image": "Styles/Recursos/estrategia/human.jpg",
+        "description": "Estrategia y construcción de civilizaciones."
+    },
+    {
+        "id": "estrategia-overcooked",
+        "name": "Overcooked!",
+        "category": "estrategia",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 299,
+        "stock": 12,
+        "image": "Styles/Recursos/estrategia/overc.jpg",
+        "description": "Juego cooperativo de cocina."
+    },
+    {
+        "id": "mas-gang-beasts",
+        "name": "Gang Beasts",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 299,
+        "stock": 10,
+        "image": "Styles/Recursos/mas/gang.jpg",
+        "description": "Juego multijugador de peleas."
+    },
+    {
+        "id": "mas-rocket-league",
+        "name": "Rocket League",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 0,
+        "stock": 100,
+        "image": "Styles/Recursos/mas/rocket.jpg",
+        "description": "Fútbol con autos; versión base gratuita."
+    },
+    {
+        "id": "mas-fall-guys",
+        "name": "Fall Guys",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 0,
+        "stock": 100,
+        "image": "Styles/Recursos/mas/fg.jpg",
+        "description": "Competencias de obstáculos gratuitas."
+    },
+    {
+        "id": "mas-gta-v",
+        "name": "Grand Theft Auto V",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 499,
+        "stock": 10,
+        "image": "Styles/Recursos/mas/granv.jpg",
+        "description": "Aventura de mundo abierto."
+    },
+    {
+        "id": "mas-gears-5",
+        "name": "Gears 5",
+        "category": "mas",
+        "platform": "Xbox / PC",
+        "price": 399,
+        "stock": 10,
+        "image": "Styles/Recursos/mas/gears5.jpg",
+        "description": "Shooter de acción."
+    },
+    {
+        "id": "mas-halo-5",
+        "name": "Halo 5: Guardians",
+        "category": "mas",
+        "platform": "Xbox",
+        "price": 399,
+        "stock": 9,
+        "image": "Styles/Recursos/mas/halo5.jpg",
+        "description": "Shooter de ciencia ficción."
+    },
+    {
+        "id": "mas-call-of-duty-modern-warfare",
+        "name": "Call of Duty: Modern Warfare",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 699,
+        "stock": 9,
+        "image": "Styles/Recursos/mas/codmw.jpg",
+        "description": "Shooter de acción."
+    },
+    {
+        "id": "mas-call-of-duty-cold-war",
+        "name": "Call of Duty: Black Ops Cold War",
+        "category": "mas",
+        "platform": "PlayStation / Xbox / PC",
+        "price": 699,
+        "stock": 9,
+        "image": "Styles/Recursos/mas/coldw.jpg",
+        "description": "Shooter de acción y espionaje."
+    }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <link rel="manifest" href="./manifiesto.json">
+  <link rel="stylesheet" href="Styles/checkout.css">
+  <title>Carrito de compras | BUGISTORE</title>
+</head>
+<body>
+  <main class="shop-wrap">
+    <header class="shop-header">
+      <div><p class="eyebrow">BUGISTORE</p><h1>Tu carrito de compras</h1><p class="subtitle">Revisa tus videojuegos y confirma tu pedido de prueba.</p></div>
+      <div class="item-count" id="cartCount">0 artículos</div>
+    </header>
+
+    <div id="cartMessage" class="cart-message" role="status" hidden></div>
+    <section id="purchaseReceipt" class="purchase-receipt" aria-live="polite" hidden></section>
+
+    <div class="cart-layout">
+      <section class="cart-products" aria-label="Productos del carrito">
+        <div id="cartEmpty" class="cart-empty" hidden>
+          <div class="empty-icon" aria-hidden="true">🛒</div>
+          <h2>Tu carrito está vacío</h2>
+          <p>Regresa a las categorías para agregar videojuegos.</p>
+        </div>
+        <div id="cartItems" class="cart-items"></div>
+        <div class="cart-actions"><button type="button" id="clearCart" class="btn btn-light" disabled>Vaciar carrito</button><a href="inicio.html" target="_top" class="back-link">← Seguir comprando</a></div>
+      </section>
+
+      <aside class="checkout-panel">
+        <h2>Resumen de compra</h2>
+        <div class="summary-row"><span>Artículos</span><strong id="cartCountSummary">—</strong></div>
+        <div class="summary-row total-row"><span>Total simulado</span><strong id="cartTotal">$0.00</strong></div>
+        <p class="simulation-note">Esta es una compra de demostración para validar el proyecto universitario. No se realizará ningún cobro.</p>
+        <form id="checkoutForm" class="checkout-form">
+          <h3>Datos para el comprobante</h3>
+          <label>Nombre completo<input type="text" name="nombre" maxlength="120" autocomplete="name" required placeholder="Tu nombre"></label>
+          <label>Correo electrónico<input type="email" name="correo" maxlength="254" autocomplete="email" required placeholder="correo@ejemplo.com"></label>
+          <p class="help-text">El comprobante se enviará a este correo si el servicio de correo está configurado en el servidor.</p>
+          <button type="submit" id="checkoutButton" class="btn btn-primary" disabled>Confirmar compra simulada</button>
+        </form>
+      </aside>
+    </div>
+    <footer class="shop-footer">BUGISTORE · Catálogo académico de videojuegos · Compra simulada</footer>
+  </main>
+  <script src="carrito.js" defer></script>
+</body>
+</html>
